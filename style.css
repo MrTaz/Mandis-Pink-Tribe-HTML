@@ -323,38 +323,52 @@
   position: absolute;
   background: radial-gradient(circle at top left, white, lightblue 70%);
 }
-.hill {
-  width: 200%;
-  bottom: 0;
-  height: 50;
-  z-index: 1;
-  position: absolute;
-  transform: rotate(-5deg);
-  border-radius: 50%/100%;
-}
-.hill1 {
-  left: -50%;
-  bottom: 0;
+.hill-front {
   z-index: 3;
-  transform: scaleX(-1) rotate(-5deg);
-  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-  background-color: #00ff00;
+  background-color: green;
 }
-.hill2 {
-  left: -75%;
-  bottom: 15%;
-  z-index: 2;
-  transform: scaleX(-1) rotate(5deg);
-  border-radius: 50% 50% 0 0 / 120% 80% 0 0;
-  background-color: #9acd32;
+.hills {
+  width: 100vw;
+  bottom: 0;
+  height: calc( 100vh - 25% );
+  display: grid;
+  position: absolute;
+  place-items: center;
+  grid-template: 1fr / 1fr;
 }
-.hill3 {
-  left: -100%;
-  bottom: 30%;
+.hills.back {
   z-index: 1;
-  transform: rotate(-5deg);
-  border-radius: 50% 50% 0 0 / 130% 70% 0 0;
-  background-color: #006400;
+  background-color: darkgreen;
+}
+.hills > * {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+.hills.middle {
+  z-index: 2;
+  background-color: yellowgreen;
+}
+.hills.front {
+  z-index: 3;
+  background-color: green;
+}
+
+
+
+.hill-shape {
+  width: 100%;
+  height: 100%;
+  clip-path: url(#hill-shape);
+}
+.hill-shape1 {
+  width: 100%;
+  height: 100%;
+  clip-path: url(#hill-shape1);
+}
+.hill-shape2 {
+  width: 100%;
+  height: 100%;
+  clip-path: url(#hill-shape2);
 }
 .heading3 {
   font-size: 20px;

@@ -67,7 +67,7 @@
 .golfindexhtml-container {
   min-height: 100vh;
 }
-.golfindexhtml-container1 {
+.golfindexhtml-container01 {
   width: 100%;
   height: auto;
   display: flex;
@@ -131,7 +131,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.golfindexhtml-container2 {
+.golfindexhtml-container02 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -163,6 +163,15 @@
 .golfindexhtml-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+}
+.golfindexhtml-container05 {
+  display: contents;
+}
+.golfindexhtml-container07 {
+  display: contents;
+}
+.golfindexhtml-container09 {
+  display: contents;
 }
 @media(max-width: 767px) {
   .golfindexhtml-header {
