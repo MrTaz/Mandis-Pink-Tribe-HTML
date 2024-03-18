@@ -165,30 +165,61 @@
   height: var(--dl-size-size-xsmall);
 }
 .golfindexhtml-container03 {
-  top: 50px;
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
+  top: 104px;
   display: flex;
   z-index: 20;
-  align-items: flex-start;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.golfindexhtml-image2 {
+  width: var(--dl-size-size-xxlarge);
 }
 .golfindexhtml-container04 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
 }
 .golfindexhtml-container05 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.golfindexhtml-container06 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.golfindexhtml-image3 {
+  width: 200px;
+  align-self: center;
+  object-fit: cover;
 }
 .golfindexhtml-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.golfindexhtml-container08 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.golfindexhtml-container10 {
   display: contents;
 }
-.golfindexhtml-container09 {
+.golfindexhtml-container12 {
   display: contents;
 }
-.golfindexhtml-container11 {
+.golfindexhtml-container14 {
   display: contents;
 }
 @media(max-width: 767px) {
