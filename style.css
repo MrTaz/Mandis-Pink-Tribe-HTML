@@ -387,6 +387,12 @@
   border-left: 50px solid red;
   border-bottom: 5px solid transparent;
 }
+.apple-tree {
+  left: -5%;
+  width: 400px;
+  bottom: 30%;
+  position: absolute;
+}
 .heading3 {
   font-size: 20px;
   text-align: center;
