@@ -148,6 +148,165 @@
   }
 }
 
+.gallery14-wrapper {
+  display: contents;
+}
+.gallery14-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.gallery14-max-width {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery14-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.gallery14-content {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.gallery14-container1 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery14-image1 {
+  width: 100%;
+  height: 300px;
+  max-width: 600px;
+  align-self: center;
+}
+.gallery14-link1 {
+  display: contents;
+}
+.gallery14-container2 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.gallery14-image2 {
+  width: 100%;
+  height: 300px;
+  max-width: 600px;
+  align-self: center;
+}
+.gallery14-link2 {
+  display: contents;
+}
+.gallery14-container3 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+}
+.gallery14-image3 {
+  width: 100%;
+  height: 300px;
+  max-width: 600px;
+}
+.comedy-show-fragment1 {
+  display: contents;
+}
+.comedy-show-text23 {
+  display: inline-block;
+}
+.comedy-show-fragment2 {
+  display: contents;
+}
+.comedy-show-text24 {
+  display: inline-block;
+  text-align: left;
+}
+.comedy-show-fragment3 {
+  display: contents;
+}
+.comedy-show-text27 {
+  display: inline-block;
+}
+.comedy-show-fragment4 {
+  display: contents;
+}
+.comedy-show-text28 {
+  display: inline-block;
+}
+.comedy-show-fragment5 {
+  display: contents;
+}
+.comedy-show-text31 {
+  display: inline-block;
+}
+.comedy-show-fragment6 {
+  display: contents;
+}
+.comedy-show-text32 {
+  display: inline-block;
+}
+.comedy-show-fragment7 {
+  display: contents;
+}
+.comedy-show-text33 {
+  display: inline-block;
+}
+.comedy-show-fragment8 {
+  display: contents;
+}
+.comedy-show-text34 {
+  display: inline-block;
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .gallery14-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gallery14-image1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 360px;
+  }
+  .gallery14-image2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 360px;
+  }
+  .gallery14-image3 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 360px;
+  }
+}
+
 .navigation-links-dark-wrapper {
   display: contents;
 }
@@ -469,6 +628,7 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
+  position: relative;
   max-width: var(--dl-size-size-maxwidth);
   margin-top: 100px;
   align-items: center;
@@ -490,6 +650,64 @@
 }
 .comedy-show-text21 {
   text-decoration: none;
+}
+.comedy-show-image3 {
+  left: -80px;
+  width: 354px;
+  bottom: -272px;
+  height: 339px;
+  position: absolute;
+  object-fit: cover;
+}
+.comedy-show-fragment1 {
+  display: contents;
+}
+.comedy-show-text23 {
+  display: inline-block;
+}
+.comedy-show-fragment2 {
+  display: contents;
+}
+.comedy-show-text24 {
+  display: inline-block;
+  text-align: left;
+}
+.comedy-show-fragment3 {
+  display: contents;
+}
+.comedy-show-text27 {
+  display: inline-block;
+}
+.comedy-show-fragment4 {
+  display: contents;
+}
+.comedy-show-text28 {
+  display: inline-block;
+}
+.comedy-show-fragment5 {
+  display: contents;
+}
+.comedy-show-text31 {
+  display: inline-block;
+}
+.comedy-show-fragment6 {
+  display: contents;
+}
+.comedy-show-text32 {
+  display: inline-block;
+}
+.comedy-show-fragment7 {
+  display: contents;
+}
+.comedy-show-text33 {
+  display: inline-block;
+}
+.comedy-show-fragment8 {
+  display: contents;
+}
+.comedy-show-text34 {
+  display: inline-block;
+  text-align: center;
 }
 .comedy-show-link2 {
   display: contents;
